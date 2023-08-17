@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         SONAR_TOKEN = credentials('Gym-App-Sonar-Secret-Key')
-         TOMCAT_CREDENTIALS = credentials('TOMCAT_CREDENTIALS') // Use the ID of the Jenkins credential containing Tomcat credentials
+         TOMCAT_CREDENTIALS = credentials('tomcat-credentials') // Use the ID of the Jenkins credential containing Tomcat credentials
 
     }
 
