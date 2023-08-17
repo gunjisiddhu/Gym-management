@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>gymauthenticationservice</artifactId>
-
+    <packaging>war</packaging>
 
     <dependencies>
         <dependency>

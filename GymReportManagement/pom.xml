@@ -9,6 +9,7 @@
     </parent>
 
     <artifactId>gymreportmanagement</artifactId>
+    <packaging>war</packaging>
 
     <dependencies>
         <dependency>
