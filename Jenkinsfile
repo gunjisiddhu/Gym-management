@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        maven "MavenTool"
-    }
-
     environment {
         SONAR_TOKEN = credentials('Gym-App-Sonar-Secret-Key')
     }
